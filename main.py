@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/ping')
 def ping():
-    return 'pong'
+    return { 'greeting': 'pong'}
 
 
 if __name__ == '__main__':
